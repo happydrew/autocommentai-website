@@ -14,7 +14,10 @@ const CallToAction = () => {
                         Stop wasting hours on manual write comments—let AutoCommentAI handle it with a single click.
                     </p>
                 </div>
-                <div className="flex items-center justify-center">
+                {/* <div className="flex items-center justify-center">
+                    <GetExtensionButton />
+                </div> */}
+                <div className='mt-8 mb-4 flex flex-col xl:flex-row items-center justify-center gap-8'>
                     <GetExtensionButton />
                 </div>
             </div>

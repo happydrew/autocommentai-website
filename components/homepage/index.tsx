@@ -1,10 +1,10 @@
 import Feature from './Feature'
 import CallToAction from './CallToAction'
-import GetEdgeExtensionButton from './GetEdgeExtensionButton'
 import Testimonials from './Testimonials'
 import FAQ from './FAQ'
 import GetExtensionButton from './GetExtensionButton'
 import DataProof from './DataProof'
+import PricingPlans from './PricingPlans'
 
 export const HomePage = () => (
 
@@ -19,11 +19,10 @@ export const HomePage = () => (
           </span>
         </h1>
         <p className="subtitle mt-6 leading-7 max-[720px]:text-[0.9rem] dark:text-gray-300">
-          AutoCommentAI is a Chrome extension that auto generate natural, on-topic blog/forum comments with embedded promo links in one click—saving your time and boosting your link-building.
+          AutoCommentAI is a Browser extension that auto generate natural, on-topic blog/forum comments with embedded promo links in one click—saving your time and boosting your link-building.
         </p>
         <div className='mt-8 mb-4 flex flex-col xl:flex-row items-center justify-start gap-8'>
           <GetExtensionButton />
-          <GetEdgeExtensionButton />
         </div>
       </div>
       <div id='hero-video' className='w-[80%] md:w-[40%] flex justify-start items-center'>
@@ -46,6 +45,8 @@ export const HomePage = () => (
     <Feature id='Features' />
 
     <Testimonials id='Testimonials' />
+
+    <PricingPlans />
 
     <FAQ id='FAQ' />
 

@@ -1,10 +1,5 @@
 import React from "react";
 import { RoughNotation } from "react-rough-notation";
-import { MagnetIcon } from "lucide-react";
-import { BsGithub } from "react-icons/bs";
-import { FaToolbox } from "react-icons/fa";
-import { FaEarthAsia, FaMobileScreenButton } from "react-icons/fa6";
-import { MdCloudUpload } from "react-icons/md";
 
 const FEATURES_EN = [
   {
