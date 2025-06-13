@@ -9,7 +9,7 @@ const TestimonialsData = [
     "user": {
       "name": "Mingzhi Jin",
       "username": "SEO Specialist",
-      "image": "/assets/users/6.jpg"
+      "image": "/assets/users/6.webp"
     },
     "content": "The plugin is extremely useful. It automatically extracts content and generates comments with one click, and supports multiple tones and formats. Especially impressive is its ability to insert links—it covers almost all types of blog link formats. You can also send multiple comments with different links at once, significantly boosting commenting efficiency. The developer responds quickly to feedback and bug fixes. Highly recommended!"
   },
@@ -17,7 +17,7 @@ const TestimonialsData = [
     "user": {
       "name": "Xing Xiong",
       "username": "Niche Site Owner",
-      "image": "/assets/users/1.jpg"
+      "image": "/assets/users/1.webp"
     },
     "content": "Awesome—it's seriously powerful! The developer is very skilled, and this tool makes link-building incredibly convenient. Total no-brainer 😅. Thank you for the amazing work!"
   },
@@ -25,7 +25,7 @@ const TestimonialsData = [
     "user": {
       "name": "Jack L.",
       "username": "Indie Developer",
-      "image": "/assets/users/2.jpg"
+      "image": "/assets/users/2.webp"
     },
     "content": "This massively improved my link-building efficiency! I used to ask AI for replies and manually tweak and paste links—now with this tool, it’s just one click. So easy~ ^^ The developer responds quickly to feedback—what I suggested in the morning was already improved by the evening. With such dedication, I believe this tool will only keep getting better."
   },
@@ -33,7 +33,7 @@ const TestimonialsData = [
     "user": {
       "name": "Nova Lv",
       "username": "Content Marketer",
-      "image": "/assets/users/5.jpg"
+      "image": "/assets/users/5.webp"
     },
     "content": "I’ve been using it for just under ten days, and it’s already proven very convenient. Though there are a few minor bugs, it greatly improves link-building efficiency overall. You don’t need to constantly ask AI for help. The developer is super responsive to user feedback and keeps optimizing the tool. Basically, every request made in the user group gets addressed."
   },
@@ -41,7 +41,7 @@ const TestimonialsData = [
     "user": {
       "name": "Keyuantai",
       "username": "Freelancer",
-      "image": "/assets/users/4.jpg"
+      "image": "/assets/users/4.webp"
     },
     "content": "The auto comment generation feature is incredibly useful and significantly boosted my productivity. The developer also updates frequently—new features were rolled out within 24 hours based on feedback. Looking forward to more!"
   },
@@ -49,7 +49,7 @@ const TestimonialsData = [
     "user": {
       "name": "Ez f",
       "username": "SEO Analyst",
-      "image": "/assets/users/3.jpg"
+      "image": "/assets/users/3.webp"
     },
     "content": "I've used this tool for about a week. It's definitely helpful—writing comments used to be a headache, but now my efficiency has skyrocketed with this tool."
   }
