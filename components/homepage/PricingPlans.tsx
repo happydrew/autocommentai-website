@@ -80,7 +80,7 @@ const PricingPlans = () => {
                 </p>
             </div>
 
-            <div className="flex justify-center items-center gap-[6rem]">
+            <div className="w-full flex flex-col md:flex-row justify-center items-center gap-[6rem]">
                 {packages.map((plan) => (
                     <PricingCard key={plan.package_id} {...plan} />
                 ))}

@@ -3,7 +3,7 @@ import CircularProgress from "@mui/material/CircularProgress";
 import { CONCAT_URL } from 'autoform.config';
 import { validEmailFormat } from "utils";
 
-export const Concat = () => {
+export const Contact = () => {
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
     const [subject, setSubject] = useState('');
@@ -87,10 +87,10 @@ export const Concat = () => {
                     <div className="p-4 bg-zinc-50 dark:bg-zinc-800 dark:text-white rounded-md w-full sm:w-60 md:w-72">
                         <h3 className="text-base font-bold mb-2">Contact Information</h3>
                         <p className="text-sm opacity-70 mb-8">Any questions, feedback, or need support? Feel free to reach out, and we'll get back to you as soon as possible.</p>
-                        <ul className="text-sm grid grid-cols-2 sm:grid-cols-1 gap-4">
+                        <ul className="text-sm flex flex-col gap-4">
                             <li>
                                 <h4 className="font-medium">Email us</h4>
-                                <p>support@autocommentai.cc</p>
+                                <p className="text-amber-500">zhugetd@gmail.com</p>
                             </li>
                         </ul>
                     </div>
@@ -127,7 +127,7 @@ export const Concat = () => {
                             </div>
                             <div className="mt-6">
                                 <button type='submit'
-                                    className="flex justify-center items-center w-full h-12 py-2 px-4 bg-green-500 hover:bg-green-600 text-white rounded-lg text-base">
+                                    className="flex justify-center items-center w-full h-12 py-2 px-4 bg-amber-600 hover:bg-amber-700 text-white rounded-lg text-base">
                                     Send Message
                                     <CircularProgress sx={{ color: 'white', ml: 1 }} size={20} thickness={5}
                                         className={`${isSending ? '' : 'invisible '}`} />

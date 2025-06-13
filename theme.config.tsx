@@ -8,7 +8,7 @@ import { Inter } from 'next/font/google'
 const inter = Inter({ subsets: ['latin'] });
 
 const logo = (
-  <div className="flex justify-center items-center" title="AutoFormAI">
+  <div className="flex justify-center items-center" title="AutoCommentAI">
     <img src="/favicon.png" alt="AutoFormAI" className="h-8 w-8" />
     <span className={`${inter.className} font-bold  ml-2 text-xl text-gray-800 dark:text-gray-300`}>AutoCommentAI</span>
   </div>
@@ -48,14 +48,14 @@ function Footer() {
         <NextLink href="/" className="max-lg:w-full">
           {logo}
         </NextLink>
-        <List
+        {/* <List
           title="Document"
           url="/docs"
           items={[
             { title: "Introduction", url: "/docs/introduction" },
             { title: "Get Started", url: "/docs/get-started" }
           ]}
-        />
+        /> */}
         {/* <List
           title="Blog"
           url="/blog"
@@ -99,7 +99,8 @@ function Footer() {
           items={[
             { title: "Contact", url: "/contact" },
             { title: "Privacy Policy", url: "/privacy-policy" },
-            { title: "Terms of Service", url: "/terms-of-service" }
+            { title: "Terms of Service", url: "/terms-of-service" },
+            { title: "Email: zhugetd@gmail.com", url: "mailto:zhugetd@gmail.com" }
           ]}
         />
       </div>

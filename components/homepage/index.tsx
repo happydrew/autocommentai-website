@@ -9,7 +9,7 @@ import PricingPlans from './PricingPlans'
 export const HomePage = () => (
 
   <div className='flex flex-col items-center justify-center w-full gap-[3.75rem]'>
-    <div id='hero' className='flex md:flex-row flex-col items-center justify-center w-full mt-10'>
+    <div id='hero' className='flex md:flex-row flex-col items-center justify-center w-full md:mt-10'>
       <div className="content-container md:w-[50%] w-[90%]">
         <h1 className="headline">
           Generate comments in{' '}
@@ -26,7 +26,7 @@ export const HomePage = () => (
         </div>
       </div>
       <div id='hero-video' className='w-[80%] md:w-[40%] flex justify-start items-center'>
-        <video
+        {/* <video
           autoPlay
           muted
           loop
@@ -34,11 +34,12 @@ export const HomePage = () => (
           className='w-[35rem] object-cover mt-10 rounded-2xl'
         >
           <source src='/assets/videos/hero_video.mp4' type='video/mp4' />
-        </video>
+        </video> */}
+        <img src='/og.webp' alt='AutoCommentAI' className='w-[35rem] object-cover mt-10 rounded-2xl' />
       </div>
     </div>
 
-    <div id="proofs" className='w-full mt-16'>
+    <div id="proofs" className='w-full mt-8 lg:mt-16'>
       <DataProof users={200} comments={15397} average_time={4} />
     </div>
 
@@ -46,7 +47,9 @@ export const HomePage = () => (
 
     <Testimonials id='Testimonials' />
 
-    <PricingPlans />
+    <div id="pricing">
+      <PricingPlans />
+    </div>
 
     <FAQ id='FAQ' />
 

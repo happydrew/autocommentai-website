@@ -7,8 +7,22 @@ export default {
       layout: 'raw'
     }
   },
+  pricing: {
+    type: 'page',
+    title: 'Pricing',
+    href: '/#pricing',
+  },
+  "privacy-policy": {
+    type: 'page',
+    title: 'Privacy',
+  },
+  "terms-of-service": {
+    type: 'page',
+    title: 'Terms',
+  },
   docs: {
     type: 'page',
+    display: 'hidden',
     title: 'Documentation'
   },
   // tags: {
@@ -26,6 +40,7 @@ export default {
   blog: {
     type: "page",
     title: "Blog",
+    display: "hidden",
     theme: {
       layout: "raw",
       typesetting: "article",
@@ -38,16 +53,6 @@ export default {
     theme: {
       layout: 'raw'
     }
-  },
-  "privacy-policy": {
-    type: 'page',
-    title: 'Privacy Policy',
-    display: 'hidden'
-  },
-  "terms-of-service": {
-    type: 'page',
-    title: 'Terms of Service',
-    display: 'hidden'
   },
   404: {
     type: 'page',
