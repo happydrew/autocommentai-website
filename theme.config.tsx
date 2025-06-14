@@ -100,7 +100,7 @@ function Footer() {
             { title: "Contact", url: "/contact" },
             { title: "Privacy Policy", url: "/privacy-policy" },
             { title: "Terms of Service", url: "/terms-of-service" },
-            { title: "Email: zhugetd@gmail.com", url: "mailto:zhugetd@gmail.com" }
+            { title: "Email: drewgrant616@gmail.com", url: "mailto:drewgrant616@gmail.com" }
           ]}
         />
       </div>

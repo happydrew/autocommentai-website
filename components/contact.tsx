@@ -90,7 +90,7 @@ export const Contact = () => {
                         <ul className="text-sm flex flex-col gap-4">
                             <li>
                                 <h4 className="font-medium">Email us</h4>
-                                <p className="text-amber-500">zhugetd@gmail.com</p>
+                                <p className="text-amber-500">drewgrant616@gmail.com</p>
                             </li>
                         </ul>
                     </div>

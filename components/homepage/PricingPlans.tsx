@@ -8,7 +8,7 @@ const packages = [
         package_id: "start_eng",
         name: "Starter",
         description: "Ideal for first-time users and light comment generation needs.",
-        price: "4.9",
+        price: "5",
         currency: "USD",// 货币符号, CNY, USD, HKD, etc.
         credits: 250,
         features: [
@@ -27,7 +27,7 @@ const packages = [
         package_id: "standard_eng",
         name: "Standard",
         description: "Suitable for most users, with a fair price.",
-        price: "9.9",
+        price: "10",
         currency: "USD",// 货币符号, CNY, USD, HKD, etc.
         credits: 550,
         features: [
@@ -46,7 +46,7 @@ const packages = [
         package_id: "pro_eng",
         name: "Professional",
         description: "Ideal for advanced users, with a premium price.",
-        price: "29.9",
+        price: "30",
         currency: "USD",
         credits: 1800,
         features: [
