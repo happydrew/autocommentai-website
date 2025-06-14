@@ -20,6 +20,10 @@ export default {
     type: 'page',
     title: 'Terms',
   },
+  "refund-policy": {
+    type: 'page',
+    title: 'Refund',
+  },
   docs: {
     type: 'page',
     display: 'hidden',

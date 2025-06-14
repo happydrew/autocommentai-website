@@ -100,6 +100,7 @@ function Footer() {
             { title: "Contact", url: "/contact" },
             { title: "Privacy Policy", url: "/privacy-policy" },
             { title: "Terms of Service", url: "/terms-of-service" },
+            { title: "Refund Policy", url: "/refund-policy" },
             { title: "Email: drewgrant616@gmail.com", url: "mailto:drewgrant616@gmail.com" }
           ]}
         />
