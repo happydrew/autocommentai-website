@@ -47,9 +47,9 @@ export const HomePage = () => (
 
     <Testimonials id='Testimonials' />
 
-    <div id="pricing">
+    {/* <div id="pricing">
       <PricingPlans />
-    </div>
+    </div> */}
 
     <FAQ id='FAQ' />
 

@@ -1,13 +1,13 @@
 import type { AppProps } from 'next/app'
-import { type ReactElement } from 'react'
+import { type ReactElement, useEffect } from 'react'
 import Head from 'next/head';
 import '../style.css';
 import Script from 'next/script';
 
 export default function App({ Component, pageProps }: AppProps): ReactElement {
-  // useEffect(() => {
-  //   document.documentElement.classList.add('dark')
-  // }, [])
+  useEffect(() => {
+    document.documentElement.classList.add('dark')
+  }, [])
   return (
     <>
       <Head>

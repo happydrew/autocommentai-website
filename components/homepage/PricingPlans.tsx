@@ -7,59 +7,59 @@ const packages = [
     {
         package_id: "start_eng",
         name: "Starter",
-        description: "Ideal for first-time users and light comment generation needs.",
+        description: "Perfect for casual users getting started with AI comments.",
         price: "5",
         currency: "USD",// 货币符号, CNY, USD, HKD, etc.
         credits: 250,
         features: [
-            "Get 250 credits",
-            "Generate about 250 comments",
-            "Credits never expire",
-            "Supports smart page extraction",
-            "Supports bulk comment generation",
-            "Supports auto-fill comments",
-            "Supports link management",
-            "Standard support"
+            "250 one-time credits",
+            "Generate ~250 comments",
+            "AI-Powered Comment Generation",
+            "Customizable Comment Styles",
+            "Local Data Storage for Privacy",
+            "Link Management Feature",
+            "Credits Never Expire",
+            "Standard Support"
         ],
         popular: false,
     },
     {
         package_id: "standard_eng",
         name: "Standard",
-        description: "Suitable for most users, with a fair price.",
+        description: "The best choice for regular users who engage frequently online.",
         price: "10",
         currency: "USD",// 货币符号, CNY, USD, HKD, etc.
         credits: 550,
         features: [
-            "Get 500 credits + 50 credits",
-            "Generate about 550 comments",
-            "Credits never expire",
-            "Supports smart page extraction",
-            "Supports bulk comment generation",
-            "Supports auto-fill comments",
-            "Supports link management",
-            "Standard support"
+            "550 one-time credits",
+            "Generate ~550 comments",
+            "AI-Powered Comment Generation",
+            "Customizable Comment Styles",
+            "Local Data Storage for Privacy",
+            "Link Management Feature",
+            "Credits Never Expire",
+            "Standard Support"
         ],
-        popular: false,
+        popular: true,
     },
     {
         package_id: "pro_eng",
         name: "Professional",
-        description: "Ideal for advanced users, with a premium price.",
+        description: "Best value for power users, marketers, and businesses.",
         price: "30",
         currency: "USD",
         credits: 1800,
         features: [
-            "Get 1500 credits + 300 credits",
-            "Generate about 1800 comments",
-            "Credits never expire",
-            "Supports smart page extraction",
-            "Supports bulk comment generation",
-            "Supports auto-fill comments",
-            "Supports link management",
-            "Priority support"
+            "1800 one-time credits",
+            "Generate ~1800 comments",
+            "AI-Powered Comment Generation",
+            "Customizable Comment Styles",
+            "Local Data Storage for Privacy",
+            "Link Management Feature",
+            "Credits Never Expire",
+            "Priority Support"
         ],
-        popular: true,
+        popular: false,
     }
 ];
 
@@ -104,13 +104,13 @@ const PricingCard = ({
     };
 
     return (
-        <div className={`relative rounded-xl p-8 transition-all hover:shadow-lg h-full max-w-[20rem] flex flex-col ${popular ? 'border-2 border-amber-500' : 'border-2 border-zinc-100 dark:border-zinc-800'}`}>
+        <div className={`relative rounded-xl p-8 transition-all hover:shadow-xl dark:shadow-zinc-600 h-full max-w-[23rem] flex flex-col ${popular ? 'border-2 border-amber-500' : 'border-2 border-zinc-100 dark:border-zinc-800'}`}>
 
             {/* Popular Badge */}
             {popular && (
                 <div className="absolute -top-3 right-4">
                     <div className="bg-gradient-to-r from-pink-500 to-purple-500 text-white text-sm font-medium px-3 py-1 rounded-full shadow-sm">
-                        Popular 🔥🔥
+                        Most Popular
                     </div>
                 </div>
             )}
@@ -120,7 +120,7 @@ const PricingCard = ({
                 {/* Header */}
                 <div className="text-center space-y-2 mb-6 pt-4"> {/* 增加上边距，为badge腾出空间 */}
                     <h2 className="text-2xl font-bold text-gray-900 dark:text-gray-100">{name}</h2>
-                    <p className="text-gray-500 dark:text-gray-400 text-sm">{description}</p>
+                    <p className="text-gray-500 dark:text-gray-400 text-base">{description}</p>
                 </div>
 
                 {/* Price */}
@@ -143,7 +143,7 @@ const PricingCard = ({
                                 className="text-green-500 flex-shrink-0"
                                 style={{ fontSize: '1.25rem' }}
                             />
-                            <span className="text-gray-600 dark:text-gray-400 text-sm">{feature}</span>
+                            <span className="text-gray-600 dark:text-gray-400 text-base">{feature}</span>
                         </li>
                     ))}
                 </ul>

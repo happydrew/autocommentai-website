@@ -107,7 +107,7 @@ function Footer() {
       </div>
       <div className="flex justify-between flex-wrap gap-10">
         <p className="text-sm">
-          Copyright © {new Date().getFullYear()} DrewGrant. All
+          Copyright © {new Date().getFullYear()} AutoCommentAI. All
           rights reserved.
           {/* <br />
           For web site terms of use, trademark policy and general project
@@ -124,13 +124,13 @@ function Footer() {
         <div className="flex flex-col gap-4 lg:items-end">
           <ul className="flex gap-5">
             {[
-              { url: "https://github.com/happydrew/auto-form-ai-web", icon: GitHubIcon },
-              { url: "", icon: DiscordIcon },
-              { url: "https://x.com/happydrewgrant", icon: TwitterIcon },
-              {
-                url: "",
-                icon: StackOverflowIcon,
-              },
+              // { url: "https://github.com/happydrew/auto-form-ai-web", icon: GitHubIcon },
+              // { url: "", icon: DiscordIcon },
+              { url: "https://x.com/auto_comment_ai", icon: TwitterIcon },
+              // {
+              //   url: "",
+              //   icon: StackOverflowIcon,
+              // },
             ].map(({ url, icon: Icon }) => (
               <li key={url}>
                 <a
@@ -144,7 +144,7 @@ function Footer() {
               </li>
             ))}
           </ul>
-          <a
+          {/* <a
             href="https://nextra.site"
             target="_blank"
             rel="noreferrer"
@@ -163,7 +163,7 @@ function Footer() {
                 strokeWidth="2"
               />
             </svg>
-          </a>
+          </a> */}
         </div>
       </div>
     </div>

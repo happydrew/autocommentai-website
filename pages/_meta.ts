@@ -10,19 +10,21 @@ export default {
   pricing: {
     type: 'page',
     title: 'Pricing',
-    href: '/#pricing',
+    theme: {
+      layout: 'raw'
+    }
   },
   "privacy-policy": {
     type: 'page',
-    title: 'Privacy',
+    title: 'Privacy Policy'
   },
   "terms-of-service": {
     type: 'page',
-    title: 'Terms',
+    title: 'Terms of Service',
   },
   "refund-policy": {
     type: 'page',
-    title: 'Refund',
+    title: 'Refund Policy',
   },
   docs: {
     type: 'page',
