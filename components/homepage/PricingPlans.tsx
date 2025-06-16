@@ -12,14 +12,14 @@ const packages = [
         currency: "USD",// 货币符号, CNY, USD, HKD, etc.
         credits: 250,
         features: [
-            "250 one-time credits",
-            "Generate ~250 comments",
-            "AI-Powered Comment Generation",
-            "Customizable Comment Styles",
-            "Local Data Storage for Privacy",
-            "Link Management Feature",
-            "Credits Never Expire",
-            "Standard Support"
+            "Get 250 credits",
+            "Generate about 250 comments",
+            "Credits never expire",
+            "Smart page extraction",
+            "Bulk comments generation",
+            "One-click fill comments",
+            "Link management",
+            "Standard support"
         ],
         popular: false,
     },
@@ -31,14 +31,14 @@ const packages = [
         currency: "USD",// 货币符号, CNY, USD, HKD, etc.
         credits: 550,
         features: [
-            "550 one-time credits",
-            "Generate ~550 comments",
-            "AI-Powered Comment Generation",
-            "Customizable Comment Styles",
-            "Local Data Storage for Privacy",
-            "Link Management Feature",
-            "Credits Never Expire",
-            "Standard Support"
+            "Get 500 credits + 50 credits",
+            "Generate about 550 comments",
+            "Credits never expire",
+            "Smart page extraction",
+            "Bulk comments generation",
+            "One-click fill comments",
+            "Link management",
+            "Standard support"
         ],
         popular: true,
     },
@@ -50,14 +50,14 @@ const packages = [
         currency: "USD",
         credits: 1800,
         features: [
-            "1800 one-time credits",
-            "Generate ~1800 comments",
-            "AI-Powered Comment Generation",
-            "Customizable Comment Styles",
-            "Local Data Storage for Privacy",
-            "Link Management Feature",
-            "Credits Never Expire",
-            "Priority Support"
+            "Get 1500 credits + 300 credits",
+            "Generate about 1800 comments",
+            "Credits never expire",
+            "Smart page extraction",
+            "Bulk comments generation",
+            "One-click fill comments",
+            "Link management",
+            "Priority support"
         ],
         popular: false,
     }
