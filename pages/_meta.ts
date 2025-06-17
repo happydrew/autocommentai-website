@@ -60,6 +60,14 @@ export default {
       layout: 'raw'
     }
   },
+  payment: {
+    type: 'page',
+    title: 'Payment',
+    display: 'hidden',
+    theme: {
+      layout: 'raw'
+    }
+  },
   404: {
     type: 'page',
     theme: {
