@@ -39,7 +39,7 @@ const Payment = () => {
                         case 'complete':
                             clearInterval(intervalId);
                             setPaymentStatus('success');
-                            setStatusMessage("Payment successful! Your plan is now active. Please return to the extension to continue.");
+                            setStatusMessage("Your credits have been recharged. Please close this page and return to the extension to continue.");
                             break;
                         case 'cancelled':
                             clearInterval(intervalId);
@@ -106,7 +106,7 @@ const Payment = () => {
         return (
             <div className="min-h-screen w-full bg-gray-50 flex flex-col items-center justify-center p-4 md:p-8 text-center gap-4">
                 <TaskAltIcon style={{ fontSize: 80, color: 'green' }} className="mb-4" />
-                <h1 className="text-2xl md:text-3xl font-bold text-green-600 mb-2">Payment Successful!</h1>
+                <h1 className="text-2xl md:text-3xl font-bold text-green-600 mb-2">Purchase Successful!</h1>
                 <p className="text-gray-700 text-lg">{statusMessage}</p>
             </div>
         );
@@ -127,7 +127,7 @@ const Payment = () => {
     return (
         <div className="min-h-screen w-full bg-gray-50 flex flex-col items-center justify-center p-4 md:p-8 text-center gap-4">
             <CircularProgress sx={{ color: 'green' }} size={60} thickness={5} />
-            <h1 className="text-2xl text-center md:text-3xl font-bold text-gray-800 mb-2">Processing payment and credit recharge, please wait patiently</h1>
+            <h1 className="text-2xl text-center font-bold text-gray-800 mb-2">Processing payment and credit recharge, please wait patiently</h1>
             <p className="text-gray-700 text-lg">It will take approximately <span className="text-green-600 font-bold text-2xl">{countdown}</span> seconds</p>
         </div>
     );
