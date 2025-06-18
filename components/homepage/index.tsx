@@ -19,7 +19,7 @@ export const HomePage = () => (
           </span>
         </h1>
         <p className="subtitle mt-6 leading-7 max-[720px]:text-[0.9rem] dark:text-gray-300">
-          AutoCommentAI is a Browser extension that auto generate natural, on-topic blog/forum comments with embedded promo links in one click—saving your time and boosting your link-building.
+          AutoCommentAI is a Browser extension that auto generate natural, on-topic blog/forum comments with embedded promo links in one click—saving your time and boosting your link-building or social engagement efficiency..
         </p>
         <div className='mt-8 mb-4 flex flex-col xl:flex-row items-center justify-start gap-8'>
           <GetExtensionButton />
