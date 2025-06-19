@@ -5,9 +5,9 @@ import '../style.css';
 import Script from 'next/script';
 
 export default function App({ Component, pageProps }: AppProps): ReactElement {
-  useEffect(() => {
-    document.documentElement.classList.add('dark')
-  }, [])
+  // useEffect(() => {
+  //   document.documentElement.classList.add('dark')
+  // }, [])
   return (
     <>
       <Head>

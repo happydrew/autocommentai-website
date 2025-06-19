@@ -16,19 +16,21 @@ export default {
   },
   "privacy-policy": {
     type: 'page',
-    title: 'Privacy Policy'
+    title: 'Privacy Policy',
+    display: 'hidden'
   },
   "terms-of-service": {
     type: 'page',
     title: 'Terms of Service',
+    display: 'hidden'
   },
   "refund-policy": {
     type: 'page',
     title: 'Refund Policy',
+    display: 'hidden'
   },
   docs: {
     type: 'page',
-    display: 'hidden',
     title: 'Documentation'
   },
   // tags: {

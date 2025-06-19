@@ -48,14 +48,13 @@ function Footer() {
         <NextLink href="/" className="max-lg:w-full">
           {logo}
         </NextLink>
-        {/* <List
+        <List
           title="Document"
           url="/docs"
           items={[
-            { title: "Introduction", url: "/docs/introduction" },
-            { title: "Get Started", url: "/docs/get-started" }
+            { title: "User Guide", url: "/docs/user-guide" }
           ]}
-        /> */}
+        />
         {/* <List
           title="Blog"
           url="/blog"
