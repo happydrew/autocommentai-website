@@ -16,6 +16,10 @@ const sep = path.sep === '/' ? '/' : '\\\\'
 const ALLOWED_SVG_REGEX = new RegExp(`components${sep}icons${sep}.+\\.svg$`)
 
 export default withNextra({
+  // i18n: {
+  //   locales: ['en', 'zh'],
+  //   defaultLocale: 'en'
+  // },
   // output: "export",
   images: {
     unoptimized: true, // 禁用图片优化（GitHub Pages 不支持）

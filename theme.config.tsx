@@ -170,6 +170,10 @@ function Footer() {
 }
 
 const config: DocsThemeConfig = {
+  // i18n: [
+  //   { locale: 'en', name: 'English' },
+  //   { locale: 'zh', name: '中文' }
+  // ],
   darkMode: true,
   // banner: {
   //   key: '3.0-release',
