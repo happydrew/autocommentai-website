@@ -2,7 +2,7 @@ import { useRouter } from 'next/router'
 import type { DocsThemeConfig } from 'nextra-theme-docs'
 import { useConfig, ThemeSwitch } from 'nextra-theme-docs'
 import NextLink from 'next/link'
-import { AutoFormAIIcon, GitHubIcon, DiscordIcon, StackOverflowIcon, TwitterIcon } from '@components/icons'
+import { AutoFormAIIcon, GitHubIcon, YouTubeIcon, StackOverflowIcon, TwitterIcon } from '@components/icons'
 import { Inter } from 'next/font/google'
 
 const inter = Inter({ subsets: ['latin'] });
@@ -123,13 +123,10 @@ function Footer() {
         <div className="flex flex-col gap-4 lg:items-end">
           <ul className="flex gap-5">
             {[
-              // { url: "https://github.com/happydrew/auto-form-ai-web", icon: GitHubIcon },
+              { url: "https://github.com/happydrew/autocommentai-website", icon: GitHubIcon },
               // { url: "", icon: DiscordIcon },
               { url: "https://x.com/auto_comment_ai", icon: TwitterIcon },
-              // {
-              //   url: "",
-              //   icon: StackOverflowIcon,
-              // },
+              { url: "https://www.youtube.com/@autocommentai", icon: YouTubeIcon },
             ].map(({ url, icon: Icon }) => (
               <li key={url}>
                 <a
