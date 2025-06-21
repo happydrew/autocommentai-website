@@ -10,10 +10,10 @@ const packages = [
         description: "Perfect for casual users getting started with AI comments.",
         price: "5",
         currency: "USD",// 货币符号, CNY, USD, HKD, etc.
-        credits: 250,
+        credits: 500,
         features: [
-            "Get 250 credits",
-            "Generate about 250 comments",
+            "Get 500 credits",
+            "Generate about 500 comments",
             "Credits never expire",
             "Smart page extraction",
             "Bulk comments generation",
@@ -29,10 +29,10 @@ const packages = [
         description: "The best choice for regular users who engage frequently online.",
         price: "10",
         currency: "USD",// 货币符号, CNY, USD, HKD, etc.
-        credits: 550,
+        credits: 1100,
         features: [
-            "Get 500 credits + 50 credits",
-            "Generate about 550 comments",
+            "Get 1000 credits + 100 credits",
+            "Generate about 1100 comments",
             "Credits never expire",
             "Smart page extraction",
             "Bulk comments generation",
@@ -48,10 +48,10 @@ const packages = [
         description: "Best value for power users, marketers, and businesses.",
         price: "30",
         currency: "USD",
-        credits: 1800,
+        credits: 3500,
         features: [
-            "Get 1500 credits + 300 credits",
-            "Generate about 1800 comments",
+            "Get 3000 credits + 500 credits",
+            "Generate about 3500 comments",
             "Credits never expire",
             "Smart page extraction",
             "Bulk comments generation",
