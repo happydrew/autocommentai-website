@@ -26,16 +26,16 @@ export const HomePage = () => (
         </div>
       </div>
       <div id='hero-video' className='w-[80%] md:w-[40%] flex justify-start items-center'>
-        {/* <video
-          autoPlay
-          muted
-          loop
-          playsInline
-          className='w-[35rem] object-cover mt-10 rounded-2xl'
-        >
-          <source src='/assets/videos/hero_video.mp4' type='video/mp4' />
-        </video> */}
-        <img src='/og.webp' alt='AutoCommentAI' className='w-[35rem] object-cover mt-10 rounded-2xl' />
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/AI25mCl3Ez8"
+          title="YouTube video player"
+          frameBorder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+        ></iframe>
+        {/* <img src='/og.webp' alt='AutoCommentAI' className='w-[35rem] object-cover mt-10 rounded-2xl' /> */}
       </div>
     </div>
 
