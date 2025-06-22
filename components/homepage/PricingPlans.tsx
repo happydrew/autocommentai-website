@@ -281,7 +281,7 @@ const PricingPlans = () => {
 
             {adsAndPackages?.ads?.pricingAds && (
                 <div id="top-ads"
-                    className="w-full h-[30px] text-[14px] bg-gray-100 text-amber-500 flex justify-center items-center overflow-hidden mb-4"
+                    className="w-full h-[30px] text-[14px] bg-transparent text-amber-500 flex justify-center items-center overflow-hidden mb-4"
                 >
                     <div id="top-ads-inner"
                         className="h-full flex justify-center items-center whitespace-nowrap hover:animate-autoFormAI-horizontalScroll"
