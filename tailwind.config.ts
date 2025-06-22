@@ -21,7 +21,17 @@ export default {
         },
         "conf-black": "#0e031c",
         black: "#1b1b1b",
-      }
+      },
+      keyframes: {
+        'autoFormAI-horizontalScroll': {
+          '0%': { transform: 'translateX(0)' },
+          '100%': { transform: 'translateX(calc(-50%))' },
+        }
+      },
+
+      animation: {
+        'autoFormAI-horizontalScroll': 'autoFormAI-horizontalScroll 20s linear infinite',
+      },
     },
     screens: {
       xs: '480px',
