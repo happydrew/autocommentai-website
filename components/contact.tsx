@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import CircularProgress from "@mui/material/CircularProgress";
 import { CONCAT_URL } from 'autoform.config';
 import { validEmailFormat } from "utils";
+import { EmailIcon, DiscordIcon, TwitterIcon } from "./icons";
 
 export const Contact = () => {
     const [name, setName] = useState('');
@@ -82,7 +82,9 @@ export const Contact = () => {
                 <div className="mb-6 sm:mb-8 md:mb-12 text-center flex flex-col gap-2">
                     <h2 className="max-w-xl mx-auto text-3xl font-bold">Concat Us</h2>
                     <p className="max-w-screen-sm mx-auto text-base text-zinc-500 dark:text-zinc-400">Have questions, feedback, or need support? We're here to help! Feel free to reach out, and we'll get back to you as soon as possible.</p>
-                    <h4 className="font-medium mt-4">Email us: <a href="mailto:drewgrant616@gmail.com" className="inline-block text-amber-500 underline">drewgrant616@gmail.com</a></h4>
+                    <h4 className="font-medium mt-4 flex justify-center items-center gap-2">Email us: <a href="mailto:drewgrant616@gmail.com" target="_blank" rel="noreferrer" className="inline-block text-amber-500 underline">drewgrant616@gmail.com</a></h4>
+                    {/* <h4 className="font-medium mt-4 flex justify-center items-center gap-2"><TwitterIcon width={24} height={24} /> <a href="https://x.com/auto_comment_ai" target="_blank" rel="noreferrer" className="inline-block text-amber-500 underline">Follow us on Twitter</a></h4> */}
+                    {/* <h4 className="font-medium mt-4"><DiscordIcon /> <a href="https://discord.gg/autocommentai" className="inline-block text-amber-500 underline">Join our Discord</a></h4> */}
                 </div>
 
                 {/* <div className="bg-white dark:bg-zinc-900 border border-zinc-100 dark:border-zinc-700 rounded-lg shadow-lg p-2 flex flex-col sm:flex-row gap-2 sm:gap-4">

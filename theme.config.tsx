@@ -124,7 +124,7 @@ function Footer() {
           <ul className="flex gap-5">
             {[
               { url: "https://github.com/happydrew/autocommentai-website", icon: GitHubIcon },
-              // { url: "", icon: DiscordIcon },
+              // { url: "https://discord.gg/autocommentai", icon: DiscordIcon },
               { url: "https://x.com/auto_comment_ai", icon: TwitterIcon },
               { url: "https://www.youtube.com/@autocommentai", icon: YouTubeIcon },
             ].map(({ url, icon: Icon }) => (
