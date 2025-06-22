@@ -48,7 +48,7 @@ export default {
   blog: {
     type: "page",
     title: "Blog",
-    display: "hidden",
+    // display: "hidden",
     theme: {
       layout: "raw",
       typesetting: "article",
